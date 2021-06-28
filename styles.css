@@ -13,6 +13,7 @@ main {
   background-size: cover;
   padding: 0rem 5rem;
 }
+
 .navbar-brand{
   font-family: "Lobster", cursive;
   display: flex;
@@ -44,12 +45,14 @@ main {
 }
 .big-text {
   position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -30%);
+  transform: translate(0%, 0%);
+  padding:7% 9%;
   font-size: 3rem;
   font-family: "Lobster", cursive;
   color: rgb(61, 61, 61);
+}
+.intro-text{
+  font-size:5rem;
 }
 
 .intro {
